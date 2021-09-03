@@ -1,0 +1,26 @@
+REQUISITOS DE INSTALACIÓN:
+1. GRPC:
+  python -m pip install grpcio
+  python -m pip install grpcio-tools
+  python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. search.proto
+ 
+2. Flask:
+  pip install Flask
+
+3. Redis:
+  pip install redis
+  
+4. WTForms:
+  pip install WTForms
+  
+CONFIGURACIÓN SERVER REDIS (UBUNTU/UBUNTU FOR WINDOWS):
+1.Iniciar servidor: sudo service redis-server start
+
+2.Establecer limite de capacidad máxima (recomendado): config set maxmemory 1040000B
+
+3.Establecer polizas de remoción de caché LRU: config set maxmemory-policy ALLKEYS-LRU
+
+EJECUCIÓN SCRIPTS:
+1.Iniciar server: python server.py
+2.Iniciar buscador (cliente): python search.py
+  -Una vez iniciado el buscador, debería poder acceder a http://localhost:50051/
