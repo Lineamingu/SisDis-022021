@@ -1,0 +1,835 @@
+[
+  {
+    "id": 0,
+    "brand_name": "AMD",
+    "items_description": "CORSAIR Vengeance RGB Pro 16GB (2 x 8GB) 288-Pin DDR4 SDRAM DDR4 3600 (PC4 28...",
+    "prices": 14723.99,
+    "category": "cpu"
+  },
+  {
+    "id": 1,
+    "brand_name": "AMD",
+    "items_description": "Kingston 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3L 1600 (PC3L 12800) Desktop Me...",
+    "prices": 378.99,
+    "category": "cpu"
+  },
+  {
+    "id": 2,
+    "brand_name": "AMD",
+    "items_description": "CORSAIR Vengeance LPX 32GB (4 x 8GB) 288-Pin DDR4 SDRAM DDR4 3200 (PC4 25600)...",
+    "prices": 2834.99,
+    "category": "cpu"
+  },
+  {
+    "id": 3,
+    "brand_name": "AMD",
+    "items_description": "CORSAIR Vengeance LPX 128GB (4 x 32GB) 288-Pin DDR4 SDRAM DDR4 3200 (PC4 2560...",
+    "prices": 661.99,
+    "category": "cpu"
+  },
+  {
+    "id": 4,
+    "brand_name": "AMD",
+    "items_description": "AMD Ryzen Threadripper 3990X 64-Core 2.9 GHz Socket sTRX4 280W 100-100000163WOF Desktop Processor",
+    "prices": 1588.99,
+    "category": "cpu"
+  },
+  {
+    "id": 5,
+    "brand_name": "AMD",
+    "items_description": "AMD Desktop Ryzen 5 1600 65W AM4 Processor with Wraith Stealth Cooler",
+    "prices": 1323.99,
+    "category": "cpu"
+  },
+  {
+    "id": 6,
+    "brand_name": "AMD",
+    "items_description": "AMD Ryzen 9 3950X 16-Core 3.5 GHz Socket AM4 105W 100-100000051WOF Desktop Processor",
+    "prices": 812.99,
+    "category": "cpu"
+  },
+  {
+    "id": 7,
+    "brand_name": "AMD",
+    "items_description": "AMD RYZEN 5 3600 6-Core 3.6 GHz (4.2 GHz Max Boost) Socket AM4 65W 100-100000031BOX Desktop Processor",
+    "prices": 1134.99,
+    "category": "cpu"
+  },
+  {
+    "id": 8,
+    "brand_name": "AMD",
+    "items_description": "AMD RYZEN 9 3900X 12-Core 3.8 GHz (4.6 GHz Max Boost) Socket AM4 105W 100-100000023BOX Desktop Processor",
+    "prices": 7253.99,
+    "category": "cpu"
+  },
+  {
+    "id": 9,
+    "brand_name": "Intel",
+    "items_description": "AMD RYZEN 7 3800X 8-Core 3.9 GHz (4.5 GHz Max Boost) Socket AM4 105W 100-100000025BOX Desktop Processor",
+    "prices": 1247.99,
+    "category": "cpu"
+  },
+  {
+    "id": 10,
+    "brand_name": "AMD",
+    "items_description": "AMD RYZEN 5 3600X 6-Core 3.8 GHz (4.4 GHz Max Boost) Socket AM4 95W 100-100000022BOX Desktop Processor",
+    "prices": 359.99,
+    "category": "cpu"
+  },
+  {
+    "id": 11,
+    "brand_name": "Intel",
+    "items_description": "AMD RYZEN 7 3700X 8-Core 3.6 GHz (4.4 GHz Max Boost) Socket AM4 65W 100-100000071BOX Desktop Processor",
+    "prices": 907.99,
+    "category": "cpu"
+  },
+  {
+    "id": 12,
+    "brand_name": "Intel",
+    "items_description": "AMD Ryzen Threadripper 3970X 32-Core 3.7 GHz Socket sTRX4 280W 100-100000011WOF Desktop Processor",
+    "prices": 1486.99,
+    "category": "cpu"
+  },
+  {
+    "id": 13,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i7-9700F Coffee Lake 8-Core 3.0 GHz (4.7 GHz Turbo) LGA 1151 (300 Series) 65W BX80684i79700F Desktop Processor Without Graphics",
+    "prices": 2078.99,
+    "category": "cpu"
+  },
+  {
+    "id": 14,
+    "brand_name": "Intel",
+    "items_description": "AMD RYZEN 3 3200G 4-Core 3.6 GHz (4.0 GHz Max Boost) Socket AM4 65W YD3200C5FHBOX Desktop Processor",
+    "prices": 321.99,
+    "category": "cpu"
+  },
+  {
+    "id": 15,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i5-9600K Coffee Lake 6-Core 3.7 GHz (4.6 GHz Turbo) LGA 1151 (300 Series) 95W BX80684I59600K Desktop Processor Intel UHD Graphics 630",
+    "prices": 693.79,
+    "category": "cpu"
+  },
+  {
+    "id": 16,
+    "brand_name": "AMD",
+    "items_description": "Intel Core i7-9700K Coffee Lake 8-Core 3.6 GHz (4.9 GHz Turbo) LGA 1151 (300 Series) 95W BX80684I79700K Desktop Processor Intel UHD Graphics 630",
+    "prices": 301.99,
+    "category": "cpu"
+  },
+  {
+    "id": 17,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i9-9900K Coffee Lake 8-Core, 16-Thread, 3.6 GHz (5.0 GHz Turbo) LGA 1151 (300 Series) 95W BX80684I99900K Desktop Processor Intel UHD Graphics 630",
+    "prices": 750.99,
+    "category": "cpu"
+  },
+  {
+    "id": 18,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i3-9100F Coffee Lake 4-Core 3.6 GHz (4.2 GHz Turbo) LGA 1151 (300 Series) 65W BX80684i39100F Desktop Processor Without Graphics",
+    "prices": 794.99,
+    "category": "cpu"
+  },
+  {
+    "id": 19,
+    "brand_name": "AMD",
+    "items_description": "Intel Core I3-9350KF Coffee Lake 4-Core 4.0 GHz (4.6 GHz Turbo) LGA 1151 (300 Series) 91W BX80684I39350KF Desktop Processor Without Graphics",
+    "prices": 1246.99,
+    "category": "cpu"
+  },
+  {
+    "id": 20,
+    "brand_name": "Intel",
+    "items_description": "AMD Athlon 240GE 2-Core, 4-Thread, 3.5 GHz Base, Socket AM4 35W YD240GC6FBBOX with Radeon Vega 3 Graphics Desktop Processor",
+    "prices": 227.11,
+    "category": "cpu"
+  },
+  {
+    "id": 21,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i3-8350K Coffee Lake Quad-Core 4.0 GHz LGA 1151 (300 Series) 91W BX80684I38350K Desktop Processor Intel UHD Graphics 630",
+    "prices": 491.99,
+    "category": "cpu"
+  },
+  {
+    "id": 22,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i5-9600KF Coffee Lake 6-Core 3.7 GHz (4.6 GHz Turbo) LGA 1151 (300 Series) 95W BX80684I59600KF Desktop Processor Without Graphics",
+    "prices": 718.99,
+    "category": "cpu"
+  },
+  {
+    "id": 23,
+    "brand_name": "AMD",
+    "items_description": "AMD RYZEN 7 1700 8-Core 3.0 GHz (3.7 GHz Turbo) Socket AM4 65W YD1700BBAEBOX Desktop Processor",
+    "prices": 3721.99,
+    "category": "cpu"
+  },
+  {
+    "id": 24,
+    "brand_name": "AMD",
+    "items_description": "Intel Pentium Gold G5400 Coffee Lake Dual-Core 3.7 GHz LGA 1151 (300 Series) 58W BX80684G5400 Desktop Processor Intel UHD Graphics 610",
+    "prices": 2570.99,
+    "category": "cpu"
+  },
+  {
+    "id": 25,
+    "brand_name": "AMD",
+    "items_description": "Intel Core i3-8100 Coffee Lake Quad-Core 3.6 GHz LGA 1151 (300 Series) 65W BX80684I38100 Desktop Processor Intel UHD Graphics 630",
+    "prices": 6311.99,
+    "category": "cpu"
+  },
+  {
+    "id": 26,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i5-8400 Coffee Lake 6-Core 2.8 GHz (4.0 GHz Turbo) LGA 1151 (300 Series) 65W BX80684I58400 Desktop Processor Intel UHD Graphics 630",
+    "prices": 238.46,
+    "category": "cpu"
+  },
+  {
+    "id": 27,
+    "brand_name": "AMD",
+    "items_description": "AMD 2nd Gen Ryzen Threadripper 24-Core, 48-Thread, 2970WX 4.2 GHz Max Boost (3.0 GHz Base), Socket sTR4 250W YD297XAZAFWOF Desktop Processor",
+    "prices": 1058.99,
+    "category": "cpu"
+  },
+  {
+    "id": 28,
+    "brand_name": "Intel",
+    "items_description": "AMD 2nd Gen Ryzen Threadripper 2950X, 16-Core, 32-Thread, 4.4 GHz Max Boost (3.5 GHz Base), Socket sTR4 180W YD295XA8AFWOF Desktop Processor",
+    "prices": 684.9,
+    "category": "cpu"
+  },
+  {
+    "id": 29,
+    "brand_name": "Intel",
+    "items_description": "AMD 2nd Gen RYZEN Threadripper 2990WX 32-Core, 64-Thread, 4.2 GHz Max Boost (3.0 GHz Base), Socket sTR4 250W YD299XAZAFWOF Desktop Processor",
+    "prices": 6969.99,
+    "category": "cpu"
+  },
+  {
+    "id": 30,
+    "brand_name": "Intel",
+    "items_description": "Intel Celeron G4920 Coffee Lake Dual-Core 3.2 GHz LGA 1151 (300 Series) 54W BX80684G4920 Desktop Processor Intel UHD Graphics 610",
+    "prices": 3515.99,
+    "category": "cpu"
+  },
+  {
+    "id": 31,
+    "brand_name": "Intel",
+    "items_description": "AMD 1st Gen RYZEN Threadripper 1920X 12-Core / 24 Threads 3.5 GHz Socket sTR4 180W YD192XA8AEWOF Desktop Processor",
+    "prices": 822.99,
+    "category": "cpu"
+  },
+  {
+    "id": 32,
+    "brand_name": "AMD",
+    "items_description": "Intel Core i5-9400F Coffee Lake 6-Core 2.9 GHz (4.1 GHz Turbo) LGA 1151 (300 Series) 65W BX80684I59400F Desktop Processor Without Graphics",
+    "prices": 1019.99,
+    "category": "cpu"
+  },
+  {
+    "id": 33,
+    "brand_name": "Intel",
+    "items_description": "Intel Celeron G3900 Skylake Dual-Core 2.8 GHz LGA 1151 51W BX80662G3900 Desktop Processor Intel HD Graphics 510",
+    "prices": 1034.99,
+    "category": "cpu"
+  },
+  {
+    "id": 34,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i9-9940X Skylake X 14-Core 3.3 GHz (4.4 GHz Turbo) LGA 2066 165W BX80673I99940X Desktop Processor",
+    "prices": 1239.73,
+    "category": "cpu"
+  },
+  {
+    "id": 35,
+    "brand_name": "AMD",
+    "items_description": "Intel Core i5-9500 6-Core 3.0 GHz LGA 1151 (300 Series) 65W CM8068403362610 Desktop Processor Intel UHD Graphics 630 - OEM",
+    "prices": 472.99,
+    "category": "cpu"
+  },
+  {
+    "id": 36,
+    "brand_name": "Intel",
+    "items_description": "AMD Ryzen 5 2600X Socket AM4 OEM Processor - YD260XBCM6IAF",
+    "prices": 918.38,
+    "category": "cpu"
+  },
+  {
+    "id": 37,
+    "brand_name": "AMD",
+    "items_description": "INTEL CM8068403654319 INTEL XEON E-2134 PROCESSOR (8M CACHE, 3.5 GHZ) LGA1151",
+    "prices": 1021.99,
+    "category": "cpu"
+  },
+  {
+    "id": 38,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i5-9500 Coffee Lake 6-Core 3.0 GHz (4.4 GHz Turbo) LGA 1151 (300 Series) 65W BX80684i59500 Desktop Processor Intel UHD Graphics 630",
+    "prices": 1736.26,
+    "category": "cpu"
+  },
+  {
+    "id": 39,
+    "brand_name": "Intel",
+    "items_description": "AMD RYZEN 5 2600 6-Core 3.4 GHz (3.9 GHz Max Boost) Socket AM4 65W YD2600BBAFBOX Desktop Processor",
+    "prices": 4901.99,
+    "category": "cpu"
+  },
+  {
+    "id": 40,
+    "brand_name": "Intel",
+    "items_description": "CORSAIR Vengeance RGB Pro 16GB (2 x 8GB) 288-Pin DDR4 SDRAM DDR4 3600 (PC4 28...",
+    "prices": 6381.99,
+    "category": "cpu"
+  },
+  {
+    "id": 41,
+    "brand_name": "Intel",
+    "items_description": "Kingston 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3L 1600 (PC3L 12800) Desktop Me...",
+    "prices": 259.74,
+    "category": "cpu"
+  },
+  {
+    "id": 42,
+    "brand_name": "Intel",
+    "items_description": "CORSAIR Vengeance LPX 32GB (4 x 8GB) 288-Pin DDR4 SDRAM DDR4 3200 (PC4 25600)...",
+    "prices": 1111.19,
+    "category": "cpu"
+  },
+  {
+    "id": 43,
+    "brand_name": "Intel",
+    "items_description": "CORSAIR Vengeance LPX 128GB (4 x 32GB) 288-Pin DDR4 SDRAM DDR4 3200 (PC4 2560...",
+    "prices": 13739.99,
+    "category": "cpu"
+  },
+  {
+    "id": 44,
+    "brand_name": "AMD",
+    "items_description": "Intel Core i5-7500 Kaby Lake Quad-Core 3.4 GHz LGA 1151 65W BX80677I57500 Desktop Processor",
+    "prices": 6821.99,
+    "category": "cpu"
+  },
+  {
+    "id": 45,
+    "brand_name": "Intel",
+    "items_description": "AMD RYZEN 5 3600X 6-Core 3.8 GHz (4.4 GHz Max Boost) Socket AM4 95W 100-100000022 Desktop Processor – OEM - OEM",
+    "prices": 9074.99,
+    "category": "cpu"
+  },
+  {
+    "id": 46,
+    "brand_name": "AMD",
+    "items_description": "Intel Core i7-9700KF Coffee Lake 8-Core 3.6 GHz (4.9 GHz Turbo) LGA 1151 (300 Series) 95W BX80684I79700KF Desktop Processor Without Graphics",
+    "prices": 1542.38,
+    "category": "cpu"
+  },
+  {
+    "id": 47,
+    "brand_name": "Intel",
+    "items_description": "Intel Xeon Gold 5122 4-Core Socket 3647 Processor CD8067303330702 - OEM/TRAY",
+    "prices": 383.35,
+    "category": "cpu"
+  },
+  {
+    "id": 48,
+    "brand_name": "Intel",
+    "items_description": "Intel Xeon 5220 18 Core 2.20 GHz Processor LGA-3647 CD8069504214601",
+    "prices": 1405.54,
+    "category": "cpu"
+  },
+  {
+    "id": 49,
+    "brand_name": "Intel",
+    "items_description": "Intel Pentium Gold G5420 Coffee Lake Dual-Core, 4-Thread, 3.8 GHz LGA 1151 (300 Series) 54W BX80684G5420 Desktop Processor Intel UHD Graphics 610",
+    "prices": 562.71,
+    "category": "cpu"
+  },
+  {
+    "id": 50,
+    "brand_name": "AMD",
+    "items_description": "Intel Core i5-8600K Coffee Lake 6-Core 3.6 GHz (4.3 GHz Turbo) LGA 1151 (300 Series) 95W BX80684I58600K Desktop Processor Intel UHD Graphics 630",
+    "prices": 3015.99,
+    "category": "cpu"
+  },
+  {
+    "id": 51,
+    "brand_name": "Intel",
+    "items_description": "Intel Corp. Xeon Gold 6150 Tray Processor (CD8067303328000)",
+    "prices": 1278.57,
+    "category": "cpu"
+  },
+  {
+    "id": 52,
+    "brand_name": "AMD",
+    "items_description": "AMD EPYC 7371 16-Core 32-Thread SP3 Server Processor PS7371BDVGPAF - OEM/TRAY",
+    "prices": 1054.83,
+    "category": "cpu"
+  },
+  {
+    "id": 53,
+    "brand_name": "AMD",
+    "items_description": "Intel Xeon Gold 6234 8Core 3.30GHz Processor LGA-3647 OEM/4 Pack CD8069504283304",
+    "prices": 829.06,
+    "category": "cpu"
+  },
+  {
+    "id": 54,
+    "brand_name": "AMD",
+    "items_description": "AMD RYZEN 7 1700X 8-Core 3.4 GHz (3.8 GHz Turbo) Socket AM4 95W YD170XBCAEWOF Desktop Processor",
+    "prices": 757.51,
+    "category": "cpu"
+  },
+  {
+    "id": 55,
+    "brand_name": "Intel",
+    "items_description": "Intel Pentium G4500 Skylake Dual-Core 3.5 GHz LGA 1151 47W BX80662G4500 Desktop Processor Intel HD Graphics 530",
+    "prices": 2529.59,
+    "category": "cpu"
+  },
+  {
+    "id": 56,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i7-7700 Kaby Lake Quad-Core 3.6 GHz LGA 1151 65W BX80677I77700 Desktop Processor",
+    "prices": 1613.39,
+    "category": "cpu"
+  },
+  {
+    "id": 57,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i3-7100 Kaby Lake Dual-Core 3.9 GHz LGA 1151 51W BX80677I37100 Desktop Processor Intel HD Graphics 630",
+    "prices": 675.3,
+    "category": "cpu"
+  },
+  {
+    "id": 58,
+    "brand_name": "Intel",
+    "items_description": "AMD RYZEN 7 3700X 8-Core 3.6 GHz (4.4 GHz Max Boost) Socket AM4 65W 100-100000071 Desktop Processor - OEM",
+    "prices": 1237.72,
+    "category": "cpu"
+  },
+  {
+    "id": 59,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i7-4790K Devil's Canyon Quad-Core 4.0 GHz LGA 1150 88W BX80646I74790K Desktop Processor Intel HD Graphics 4600",
+    "prices": 1829.72,
+    "category": "cpu"
+  },
+  {
+    "id": 60,
+    "brand_name": "Intel",
+    "items_description": "AMD RYZEN 5 1600X 6-Core 3.6 GHz (4.0 GHz Turbo) Socket AM4 95W YD160XBCAEWOF Desktop Processor",
+    "prices": 7164.12,
+    "category": "cpu"
+  },
+  {
+    "id": 61,
+    "brand_name": "Intel",
+    "items_description": "AMD RYZEN 5 1500X 4-Core 3.5 GHz (3.7 GHz Turbo) Socket AM4 65W YD150XBBAEBOX Desktop Processor",
+    "prices": 5202.05,
+    "category": "cpu"
+  },
+  {
+    "id": 62,
+    "brand_name": "Intel",
+    "items_description": "AMD RYZEN 5 1400 4-Core 3.2 GHz (3.4 GHz Turbo) Socket AM4 65W YD1400BBAEBOX Desktop Processor",
+    "prices": 8577.4,
+    "category": "cpu"
+  },
+  {
+    "id": 63,
+    "brand_name": "AMD",
+    "items_description": "Intel Core i7-6850K Broadwell-E 6-Core 3.6 GHz LGA 2011-V3 140W BX80671I76850K Desktop Processor",
+    "prices": 389.99,
+    "category": "cpu"
+  },
+  {
+    "id": 64,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i7-9700 Coffee Lake 8-Core 3.0 GHz (4.7 GHz Turbo) LGA 1151 (300 Series) 65W BX80684I79700 Desktop Processor Intel UHD Graphics 630",
+    "prices": 1986.42,
+    "category": "cpu"
+  },
+  {
+    "id": 65,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i3-9100 Coffee Lake 4-Core 3.6 GHz(4.2 GHz Turbo) LGA 1151 (300 Series) 65W BX80684I39100 Desktop Processor Intel UHD Graphics 630",
+    "prices": 975.65,
+    "category": "cpu"
+  },
+  {
+    "id": 66,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i7-6700K 8M Skylake Quad-Core 4.0 GHz LGA 1151 91W BX80662I76700K Desktop Processor Intel HD Graphics 530",
+    "prices": 851.94,
+    "category": "cpu"
+  },
+  {
+    "id": 67,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i7-8700K Coffee Lake 6-Core 3.7 GHz (4.7 GHz Turbo) LGA 1151 (300 Series) 95W BX80684I78700K Desktop Processor Intel UHD Graphics 630",
+    "prices": 2120.7,
+    "category": "cpu"
+  },
+  {
+    "id": 68,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i9-7960X Skylake X 16-Core 2.8 GHz LGA 2066 165W BX80673I97960X Desktop Processor",
+    "prices": 1728.98,
+    "category": "cpu"
+  },
+  {
+    "id": 69,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i9-7900X Skylake-X 10-Core 3.3 GHz LGA 2066 140W BX80673I97900X Desktop Processor",
+    "prices": 5362.69,
+    "category": "cpu"
+  },
+  {
+    "id": 70,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i9-7980XE Skylake X 18-Core 2.6 GHz LGA 2066 165W BX80673I97980X Desktop Processor",
+    "prices": 1623.44,
+    "category": "cpu"
+  },
+  {
+    "id": 71,
+    "brand_name": "Intel",
+    "items_description": "Refurbished: NEVER USED AMD OEM TRAY FX-6300 Vishera 6-Core 3.5 GHz (4.1 GHz Turbo) Socket AM3+ 95W  Desktop Processor",
+    "prices": 2891.75,
+    "category": "cpu"
+  },
+  {
+    "id": 72,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i9-9900KF Coffee Lake 8-Core, 16-Thread, 3.6 GHz (5.0 GHz Turbo) LGA 1151 (300 Series) 95W BX80684I99900KF Desktop Processor Without Graphics",
+    "prices": 1973.3,
+    "category": "cpu"
+  },
+  {
+    "id": 73,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i5-9400 Coffee Lake 6-Core 2.9 GHz (4.1 GHz Turbo) LGA 1151 (300 Series) 65W BX80684I59400 Desktop Processor Intel UHD Graphics 630",
+    "prices": 202.63,
+    "category": "cpu"
+  },
+  {
+    "id": 74,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i5-7400 Kaby Lake Quad-Core 3.0 GHz LGA 1151 65W BX80677I57400 Desktop Processor",
+    "prices": 1213.81,
+    "category": "cpu"
+  },
+  {
+    "id": 75,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i7-7700K Kaby Lake Quad-Core 4.2 GHz LGA 1151 91W BX80677I77700K Desktop Processor",
+    "prices": 181.99,
+    "category": "cpu"
+  },
+  {
+    "id": 76,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i7-4770K Haswell Quad-Core 3.5 GHz LGA 1150 84W BX80646I74770K Desktop Processor Intel HD Graphics",
+    "prices": 349.22,
+    "category": "cpu"
+  },
+  {
+    "id": 77,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i9-9920X Skylake X 12-Core 3.5 GHz (4.4 GHz Turbo) LGA 2066 165W BX80673I99920X Desktop Processor",
+    "prices": 4232.86,
+    "category": "cpu"
+  },
+  {
+    "id": 78,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i7-6700 Skylake Quad-Core 3.4 GHz LGA 1151 65W BX80662I76700 Desktop Processor",
+    "prices": 637.78,
+    "category": "cpu"
+  },
+  {
+    "id": 79,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i9-9820X Skylake X 10-Core 3.3 GHz (4.1 GHz Turbo) LGA 2066 165W BX80673I99820X Desktop Processor",
+    "prices": 258.58,
+    "category": "cpu"
+  },
+  {
+    "id": 80,
+    "brand_name": "Intel",
+    "items_description": "CORSAIR Vengeance RGB Pro 16GB (2 x 8GB) 288-Pin DDR4 SDRAM DDR4 3600 (PC4 28...",
+    "prices": 192.99,
+    "category": "cpu"
+  },
+  {
+    "id": 81,
+    "brand_name": "AMD",
+    "items_description": "Kingston 16GB (2 x 8GB) 240-Pin DDR3 SDRAM DDR3L 1600 (PC3L 12800) Desktop Me...",
+    "prices": 2445.77,
+    "category": "cpu"
+  },
+  {
+    "id": 82,
+    "brand_name": "Intel",
+    "items_description": "CORSAIR Vengeance LPX 32GB (4 x 8GB) 288-Pin DDR4 SDRAM DDR4 3200 (PC4 25600)...",
+    "prices": 1086.23,
+    "category": "cpu"
+  },
+  {
+    "id": 83,
+    "brand_name": "Intel",
+    "items_description": "CORSAIR Vengeance LPX 128GB (4 x 32GB) 288-Pin DDR4 SDRAM DDR4 3200 (PC4 2560...",
+    "prices": 229.99,
+    "category": "cpu"
+  },
+  {
+    "id": 84,
+    "brand_name": "Intel",
+    "items_description": "Intel Core i7-4790S Haswell Quad-Core 3.2 GHz LGA 1150 65W BX80646I74790S Desktop Processor Intel HD Graphics 4600",
+    "prices": 3907.34,
+    "category": "cpu"
+  },
+  {
+    "id": 85,
+    "brand_name": "Intel",
+    "items_description": "Intel Celeron G4930 Coffee Lake Dual-Cor 3.2 GHz LGA 1151 (300 Series) 54W BX80684G4930 Desktop Processor Intel UHD Graphics 610",
+    "prices": 390.87,
+    "category": "cpu"
+  },
+  {
+    "id": 86,
+    "brand_name": "AMD",
+    "items_description": "Intel Core i5-7640X Kaby Lake-X Quad-Core 4.0 GHz LGA 2066 112W BX80677I57640X Desktop Processor",
+    "prices": 150,
+    "category": "cpu"
+  },
+  {
+    "id": 87,
+    "brand_name": "Intel",
+    "items_description": "Refurbished: Intel E8500 Wolfdale Dual-Core 3.167 GHz LGA 775 65W AT80570PJ0876M Desktop Processor",
+    "prices": 247.47,
+    "category": "cpu"
+  },
+  {
+    "id": 88,
+    "brand_name": "AMD",
+    "items_description": "Intel Core i3-4130 Haswell Dual-Core 3.4 GHz LGA 1150 54W BX80646I34130 Desktop Processor Intel HD Graphics 4400",
+    "prices": 189.42,
+    "category": "cpu"
+  },
+  {
+    "id": 89,
+    "brand_name": "AMD",
+    "items_description": "Intel Core i9-7920X Skylake X 12-Core 2.9 GHz LGA 2066 140W BX80673I97920X Desktop Processor",
+    "prices": 41.26,
+    "category": "cpu"
+  },
+  {
+    "id": 90,
+    "brand_name": "AMD",
+    "items_description": "Intel Core i3-4340 Haswell Dual-Core 3.6 GHz LGA 1150 54W BX80646I34340 Desktop Processor Intel HD Graphics 4600",
+    "prices": 59.97,
+    "category": "cpu"
+  },
+  {
+    "id": 91,
+    "brand_name": "AMD",
+    "items_description": "Intel Celeron G1820 Processor 2.7GHz LGA1150 CPU with Air CPU Cooler OEM",
+    "prices": 234.44,
+    "category": "cpu"
+  },
+  {
+    "id": 92,
+    "brand_name": "AMD",
+    "items_description": "Refurbished: Intel Wolfdale Dual-Core 2.93 GHz LGA 775 65W Desktop ProcessorAT80571PH0773M never used. Replacement only.",
+    "prices": 112.49,
+    "category": "cpu"
+  },
+  {
+    "id": 93,
+    "brand_name": "AMD",
+    "items_description": "AMD Ryzen 9 3900X Matisse 12-Core 3.8 GHz Socket AM4 105W 100-100000023BOX Desktop Processor",
+    "prices": 275.7,
+    "category": "cpu"
+  },
+  {
+    "id": 94,
+    "brand_name": "AMD",
+    "items_description": "Intel Core i5-7500T Quad-core (4 Core) 2.70 GHz Processor - Socket H4 LGA-1151 Retail Pack - 1MB - 6MB Cache - 8 GT/s DMI - 64-bit Processing - 3.30 GHz Overclocking Speed - 14 nm",
+    "prices": 48.72,
+    "category": "cpu"
+  },
+  {
+    "id": 95,
+    "brand_name": "AMD",
+    "items_description": "Refurbished: Intel Pentium G2140 Ivy Bridge Dual-Core 3.3 GHz LGA 1155 55W Desktop Processor Intel HD Graphics",
+    "prices": 63.76,
+    "category": "cpu"
+  },
+  {
+    "id": 96,
+    "brand_name": "Intel",
+    "items_description": "INTEL XEON PROCESSOR E5-2640 V4 (25M CACHE, 2.40 GHZ)",
+    "prices": 159.11,
+    "category": "cpu"
+  },
+  {
+    "id": 97,
+    "brand_name": "Intel",
+    "items_description": "Intel Optane M.2 2280 32GB PCIe NVMe 3.0 x2 Memory Module/System Accelerator MEMPEK1W032GAXT",
+    "prices": 1014.82,
+    "category": "cpu"
+  },
+  {
+    "id": 98,
+    "brand_name": "AMD",
+    "items_description": "Refurbished: AMD Phenom II X4 960T Zosma Quad-Core 3.0GHz (3.4GHz Turbo Boost) Socket AM3 95W HD96ZTWFK4DGR Desktop Processor",
+    "prices": 131.28,
+    "category": "cpu"
+  },
+  {
+    "id": 99,
+    "brand_name": "AMD",
+    "items_description": "Refurbished: Intel Core i5-2400 Sandy Bridge Quad-Core 3.1 GHz (3.4 GHz Turbo Boost) LGA 1155 95W Desktop Processor Like New",
+    "prices": 48.72,
+    "category": "cpu"
+  },
+  {
+    "id": 100,
+    "brand_name": "AMD",
+    "items_description": "Refurbished: AMD A10-5800K Trinity Quad-Core 3.8 GHz Socket FM2 AD580KWOA44HJ Desktop Processor",
+    "prices": 70.82,
+    "category": "cpu"
+  },
+  {
+    "id": 101,
+    "brand_name": "AMD",
+    "items_description": "Refurbished: AMD Athlon II X2 245 Regor Dual-Core 2.9 GHz Socket AM3 65W ADX245OCK23GM Desktop Processor - OEM Grade A",
+    "prices": 55.81,
+    "category": "cpu"
+  },
+  {
+    "id": 102,
+    "brand_name": "AMD",
+    "items_description": "Refurbished: AMD Athlon II X3 440 Rana Triple-Core 3.0 GHz Socket AM3 95W ADX440WFK32GM Desktop Processors",
+    "prices": 37.47,
+    "category": "cpu"
+  },
+  {
+    "id": 103,
+    "brand_name": "AMD",
+    "items_description": "Refurbished: AMD AD7600YBJABOX A8-7600 Socket FM2+ Kaveri Quad-Core 3.1GHz CPU Processor",
+    "prices": 97.34,
+    "category": "cpu"
+  },
+  {
+    "id": 104,
+    "brand_name": "AMD",
+    "items_description": "Refurbished: AMD Athlon II X4 620 Propus Quad-Core 2.6 GHz Socket AM3 95W ADX620WFK42GI DesktopProcessor",
+    "prices": 37.47,
+    "category": "cpu"
+  },
+  {
+    "id": 105,
+    "brand_name": "AMD",
+    "items_description": "Refurbished: AMD Phenom II X6 1055T Thuban 6-Core 2.8GHz (3.3GHz Turbo Boost) Socket AM3 95W HDT55TWFK6DGR Desktop Processor",
+    "prices": 89.83,
+    "category": "cpu"
+  },
+  {
+    "id": 106,
+    "brand_name": "AMD",
+    "items_description": "Refurbished: AMD Athlon 64 X2 4000+ Brisbane Dual-Core 2.1 GHz Socket AM2 65W ADO4000IAA5DD Processor",
+    "prices": 150,
+    "category": "cpu"
+  },
+  {
+    "id": 107,
+    "brand_name": "AMD",
+    "items_description": "Refurbished: AMD Athlon II X 260 Regor Dual-Core 3.2 GHz Socket AM3 65W ADX260OCK23GM Desktop Processor",
+    "prices": 84.39,
+    "category": "cpu"
+  },
+  {
+    "id": 108,
+    "brand_name": "AMD",
+    "items_description": "Refurbished: Intel Celeron G1820 Processor 2.7GHz 5.0GT/s 2MB LGA 1150 CPU BX80646G1820",
+    "prices": 84.39,
+    "category": "cpu"
+  },
+  {
+    "id": 109,
+    "brand_name": "AMD",
+    "items_description": "Refurbished: Intel Core i5-7640X X-Series Processor 4 Cores up to 4.2 GHz Turbo Unlocked LGA2066 X299 Series 112W",
+    "prices": 131.28,
+    "category": "cpu"
+  },
+  {
+    "id": 110,
+    "brand_name": "AMD",
+    "items_description": "Refurbished: AMD Athlon II X4 650 Propus Quad-Core 3.2 GHz Socket AM3 95W ADX650WFK42GM Desktop Processor",
+    "prices": 105.03,
+    "category": "cpu"
+  },
+  {
+    "id": 111,
+    "brand_name": "AMD",
+    "items_description": "Refurbished: AMD Athlon 64 X2 4800+ Brisbane Dual-Core 2.5 GHz Socket AM2 65W ADO4800IAA5DO Processor",
+    "prices": 48.72,
+    "category": "cpu"
+  },
+  {
+    "id": 112,
+    "brand_name": "AMD",
+    "items_description": "Refurbished: AMD Athlon 64 X2 5400+ Brisbane Dual-Core 2.8 GHz Socket AM2 65W ADO5400IAA5DO Desktop Processor",
+    "prices": 74.98,
+    "category": "cpu"
+  },
+  {
+    "id": 113,
+    "brand_name": "AMD",
+    "items_description": "Refurbished: AMD Athlon II X2 255 Regor Dual-Core 3.1 GHz Socket AM3 65W ADX2550CK23GM Desktop Processor",
+    "prices": 37.47,
+    "category": "cpu"
+  },
+  {
+    "id": 114,
+    "brand_name": "AMD",
+    "items_description": "Refurbished: AMD Athlon II X2 220 Regor Dual-Core 2.8 GHz Socket AM3 65W ADX220OCK22GM Desktop Processor",
+    "prices": 48.72,
+    "category": "cpu"
+  },
+  {
+    "id": 115,
+    "brand_name": "Intel",
+    "items_description": "Refurbished: AMD Phenom 9650 Agena Quad-Core 2.3 GHz Socket AM2+ HD9650WCJ4BGH Desktop Processor",
+    "prices": 183.75,
+    "category": "cpu"
+  },
+  {
+    "id": 116,
+    "brand_name": "AMD",
+    "items_description": "Refurbished: AMD Phenom 8650 Toliman Triple-Core 2.3 GHz Socket AM2+ 95W HD8650WCJ3BGH Desktop Processor",
+    "prices": 302.99,
+    "category": "cpu"
+  },
+  {
+    "id": 117,
+    "brand_name": "Intel",
+    "items_description": "Refurbished: AMD Phenom 9600 Agena Quad-Core 2.3 GHz Socket AM2+ HD960ZWCJ4BGD Desktop Processor",
+    "prices": 2758.87,
+    "category": "cpu"
+  },
+  {
+    "id": 118,
+    "brand_name": "Intel",
+    "items_description": "Refurbished: AMD Phenom X4 9750 Agena Quad-Core 2.4 GHz Socket AM2+ 95W HD9750WCJ4BGH Desktop Processor",
+    "prices": 2575.55,
+    "category": "cpu"
+  }
+]
