@@ -1,1 +1,35 @@
-a
+Para poder ejecutar los scripts, primero se necesita contar con lo siguiente:
+
+-python
+-python-pip
+-kafka-python (pip install kafka-python)
+-Flask (pip install Flask)
+
+Pasos de ejecución:
+
+1. Localizar la ubicación de la librería Kafka:
+cd kafka_2.13-2.6.0
+2. En una terminal, iniciar zookeeper:
+bin/zookeeper-server-start.sh config/zookeeper.properties
+3. En otra terminal, iniciar kafka broker:
+bin/kafka-server-start.sh config/server.properties
+4. En otra terminal, ejecutar main.py:
+python main.py
+o
+python3 main.py
+5. En otras 2 terminales, ejecutar los consumidores de ordenes y summary:
+python consume_order.py
+python consume_summary.py
+o
+python3 consume_order.py
+python3 consume_summary.py
+
+Obs1: Para finalizar la ejecuciones de script, se recomienda cerrar cada terminar en el orden opuesto, y al final, limpiar el caché:
+rm -rf /tmp/kafka-logs /tmp/zookeeper
+
+Obs2: Para modificar los correos electronicos, modificar la información dentro de resumen.json
+
+Obs3: Para esta tarea se usaron 2 topicos con la configuración por defecto, que además no es necesario crear, dado que se crea el topico correspondiente al 
+ejecutar los consumidores, pero de todas formas, los comandos para crear topicos manualmente son los siguientes:
+bin/kafka-console-consumer.sh  --topic topic_orders --bootstrap-server localhost:9092
+bin/kafka-console-producer.sh  --topic daily_summary --bootstrap-server localhost:9092 
