@@ -1,0 +1,34 @@
+{
+    "tienda": [
+        {
+            "1": {
+                "email_vendedor": "javierfeli.urzua@mail.udp.cl",
+                "email_cocinero": "javierfmdua@gmail.com",
+                "ventas_sopaipillas": 0,
+                "ventas_completos": 0,
+                "ganancias_dia": 0
+            },
+            "2": {
+                "email_vendedor": "pedro.barrios@mail.udp.cl",
+                "email_cocinero": "pepomix97@hotmail.com",
+                "ventas_sopaipillas": 0,
+                "ventas_completos": 0,
+                "ganancias_dia": 0
+            },
+            "3": {
+                "email_vendedor": "diego.cespedes@mail.udp.cl",
+                "email_cocinero": "daius98@gmail.com",
+                "ventas_sopaipillas": 0,
+                "ventas_completos": 0,
+                "ganancias_dia": 0
+            },
+            "4": {
+                "email_vendedor": "diegocespedescofian@gmail.com",
+                "email_cocinero": "javierfmdua@outlook.com",
+                "ventas_sopaipillas": 0,
+                "ventas_completos": 0,
+                "ganancias_dia": 0
+            }
+        }
+    ]
+}
