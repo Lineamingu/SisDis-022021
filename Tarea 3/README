@@ -61,7 +61,19 @@ Pasos de ejecución:
 4. Iniciar nginx:
   sudo systemctl start nginx
   
-5. 
+5. En la imagen Master, crear la tabla products, que contiene los siguientes atributos:
+  id, int auto_increment
+  brand_name, str
+  items_description, str
+  price, int
+  category, str
+
+6. Ejecutar script app.py en 3 instancias paralelas, de la siguiente manera:
+  python3 -m flask run --port 3000
+  python3 -m flask run --port 3001
+  python3 -m flask run --port 3002
+
+7. Ingresar a localhost/main en un navegador. En esta interfaz se podrá ingresar un nuevo producto, así como buscar productos.
 
 Obs1: Si se modifican los parametros dentro de app.conf, es necesario reiniciar/recargar nginx, de la siguiente manera:
   sudo systemctl restart nginx
