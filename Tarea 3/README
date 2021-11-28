@@ -1,1 +1,78 @@
+Para poder ejecutar los scripts, primero se necesita contar con lo siguiente:
 
+-python
+-python-pip
+-Flask (pip install Flask)
+-nginx
+-docker
+-postgres
+
+Pasos de ejecución:
+
+1. Instalar nginx:
+  sudo apt install nginx
+
+1.1. Editar el archivo nginx.conf (habitualmente se ubica en /etc/nginx) y agregar:
+  include path/to/file/app.conf
+
+2. Para instalar y configurar docker, ejecutar los siguientes comandos:
+  sudo apt-get update
+  sudo apt-get install \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release
+
+2.1. Añadir la llave GPG:
+  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+
+2.2. Configurar repositorio estable:
+  echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+2.3. Luego de esto se instala (usando la imagen de bitnami):
+  sudo apt-get install docker-ce docker-ce-cli containerd.io
+
+3. Instalar postgres:
+  docker run --name postgresql bitnami/postgresql:latest
+
+3.1. Crear particiones master y slave:
+  sudo docker run -dti -p 55432:5432 --name postgresql-master \
+  -e POSTGRESQL_REPLICATION_MODE=master \
+  -e POSTGRESQL_USERNAME=user1 \
+  -e POSTGRESQL_PASSWORD=password1 \
+  -e POSTGRESQL_DATABASE=my_database \
+  -e POSTGRESQL_REPLICATION_USER=user2 \
+  -e POSTGRESQL_REPLICATION_PASSWORD=password2 \
+  bitnami/postgresql:latest
+  
+  sudo docker run  -dti -p 65432:5432 --name postgresql-slave \
+  --link postgresql-master:master \
+  -e POSTGRESQL_REPLICATION_MODE=slave \
+  -e POSTGRESQL_USERNAME=user1 \
+  -e POSTGRESQL_PASSWORD=password1 \
+  -e POSTGRESQL_MASTER_HOST=master \
+  -e POSTGRESQL_MASTER_PORT_NUMBER=5432 \
+  -e POSTGRESQL_REPLICATION_USER=user2 \
+  -e POSTGRESQL_REPLICATION_PASSWORD=password2 \
+  bitnami/postgresql:latest
+
+4. Iniciar nginx:
+  sudo systemctl start nginx
+  
+5. 
+
+Obs1: Si se modifican los parametros dentro de app.conf, es necesario reiniciar/recargar nginx, de la siguiente manera:
+  sudo systemctl restart nginx
+  o
+  sudo systemctl reload nginx
+
+Obs2: Se puede verificar el estado de las imagenes de docker y el servidor de nginx de la siguiente manera:
+  sudo docker ps-a
+  sudo systemctl status nginx
+  
+Obs2.5: Para comenzar o detener una imagen de docker, se puede hacer de la siguiente manera:
+  sudo docker ps-a / para obtener el ID de los container
+  sudo docker stop ID-del-container
+  sudo docker rm ID-del-container
